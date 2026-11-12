@@ -15,10 +15,6 @@ Property-based fuzz testing and defensive software hardening for the coin-operat
 | **2. Fixed Application Python Script** | [`processor.py`](processor.py) (and [`vending_machine.py`](vending_machine.py)) | Hardened application with strict defensive input validation, type guarding, and DoS loop prevention | 100% Passing Fuzz Tests |
 | **3. Updated Test Code (Hypothesis)** | [`test_processor.py`](test_processor.py) | Comprehensive property-based fuzz testing suite covering all 3 functions with Hypothesis | 6 test suites, hundreds of generated cases |
 | **Terminal Screenshots (PNG)** | [`step2_buggy_processor_output.png`](step2_buggy_processor_output.png)<br>[`step4_test_processor_failing.png`](step4_test_processor_failing.png)<br>[`step5_fixed_processor_output.png`](step5_fixed_processor_output.png)<br>[`step6_test_processor_passing.png`](step6_test_processor_passing.png) | High-definition terminal captures corresponding to each step of the lab manual | Complete & Verified |
-| **Screenshot Generator Script** | [`render_lab7_screenshots.py`](render_lab7_screenshots.py) | Automated script using PIL to run and render crisp terminal screenshots | Verified |
-| **PDF Generator Script** | [`generate_pdf_report.py`](generate_pdf_report.py) | ReportLab script to compile the complete formal submission document | Verified |
-
----
 
 ### Understanding Fuzzing with Hypothesis
 
